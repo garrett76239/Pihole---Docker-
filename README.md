@@ -23,3 +23,8 @@ printf "\n"
 
 #verify that IP address and DNS address match
 printf "Current DNS IP address: $(dnsdomainname -I | awk '{ print $1 }')"
+
+
+
+
+Acknowledgements for the original project source code: https://github.com/theNetworkChuck/NetworkChuck/blob/master/pihole.sh
